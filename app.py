@@ -54,7 +54,7 @@ def main():
     st.sidebar.header("Enter Your Details")
     
     name = st.sidebar.text_input("Name")
-    bio = st.sidebar.text_area("Bio")
+    bio = st.sidebar.text_area("Describe about you in a descriptive way")
     hobby = st.sidebar.text_input("What do you want to become?")
     uploaded_file = st.sidebar.file_uploader("Choose an image...", type="jpg")
 
